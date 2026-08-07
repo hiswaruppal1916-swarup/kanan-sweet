@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
       unit: 'per kg',
       badge: 'Traditional',
       badgeClass: 'badge-bestseller',
-      image: 'images/sandesh.png',
+      image: 'images/hero_sweets.png',
       description: 'Mini Rasgulla encapsulated inside a soft layer of sweetened mawa and grated khoya.'
     },
     {
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
       unit: 'per kg',
       badge: 'Rich Flavor',
       badgeClass: 'badge-fresh',
-      image: 'images/sandesh.png',
+      image: 'images/wedding_catering.png',
       description: 'Caramelized two-tone slow-cooked milk cake with rich grainy texture and cardamom aroma.'
     },
     {

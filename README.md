@@ -11,6 +11,22 @@ Welcome to the official web application repository for **Kanan Sweets** located 
 - **Wedding Catering Showcase**: Customized Bengali Wedding Tattwa gift boxes, live sweet counters, and event quotation system.
 - **Local SEO & Schema Markup**: JSON-LD Structured Data for `SweetShop`, `Bakery`, `IceCreamShop`, `LocalBusiness`, `FAQPage`, and `Product`.
 
+## 📸 13 Unique Studio Food Photography Assets
+
+1. `images/rasgulla.png` - Spongy Bengali Rasgulla in clear sugar syrup
+2. `images/sandesh.png` - Nolen Gur Kacha Golla Sandesh
+3. `images/rasmalai.png` - Saffron Pistachio Rasmalai
+4. `images/mishti_doi.png` - Heritage Matka Mishti Doi
+5. `images/cham_cham.png` - Malai Cham Cham
+6. `images/gulab_jamun.png` - Shahi Gulab Jamun
+7. `images/kalakand.png` - Pista Milk Kalakand
+8. `images/motichoor_laddu.png` - Desi Ghee Motichoor Laddu
+9. `images/luxury_cakes.png` - Multi-Tier Designer Birthday & Wedding Cakes
+10. `images/ice_cream_parlour.png` - Artisanal Matka Kulfi & Sundae Parlour
+11. `images/festival_hampers.png` - Durga Puja Royal Gift Box
+12. `images/wedding_catering.png` - Bengali Wedding Sweets & Tattwa Catering
+13. `images/hero_sweets.png` - Traditional Bengali Mishti Thali Presentation
+
 ## 📁 Repository Structure
 
 ```text
