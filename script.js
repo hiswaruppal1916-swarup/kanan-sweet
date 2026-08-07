@@ -8,7 +8,18 @@ document.addEventListener('DOMContentLoaded', () => {
   // ------------------------------------------------------------------------
   const products = [
     {
-      id: 'rasgulla-01',
+      id: 'thali-01',
+      name: 'Traditional Bengali Mishti Thali',
+      category: 'sweets',
+      price: '₹450',
+      unit: 'Special Royal Assorted Box',
+      badge: 'Chef Signature',
+      badgeClass: 'badge-bestseller',
+      image: 'images/hero_sweets.png',
+      description: 'Royal platter presentation featuring Sponge Rasgulla, Nolen Gur Sandesh, Rasmalai, Gulab Jamun, and Kheer Kadam.'
+    },
+    {
+      id: 'rasgulla-02',
       name: 'Spongy Bengali Rasgulla',
       category: 'sweets',
       price: '₹220',
@@ -19,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Melt-in-mouth traditional Bengali Rasgulla prepared fresh daily from 100% pure chhana in light sugar syrup.'
     },
     {
-      id: 'sandesh-02',
+      id: 'sandesh-03',
       name: 'Nolen Gur Kacha Golla Sandesh',
       category: 'sweets',
       price: '₹380',
@@ -30,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Authentic Date Palm Jaggery (Nolen Gur) Sandesh crafted with delicate traditional Bengali craftsmanship.'
     },
     {
-      id: 'rasmalai-03',
+      id: 'rasmalai-04',
       name: 'Saffron Pistachio Rasmalai',
       category: 'sweets',
       price: '₹350',
@@ -41,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Soft chhana discs soaked in rich, cardamom-infused saffron milk and crowned with Iranian pistachios.'
     },
     {
-      id: 'mishti-doi-04',
+      id: 'mishti-doi-05',
       name: 'Heritage Traditional Mishti Doi',
       category: 'sweets',
       price: '₹180',
@@ -52,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Classic caramelized Bengali sweet curd set perfectly in porous clay pots for an authentic traditional flavor.'
     },
     {
-      id: 'cham-cham-05',
+      id: 'cham-cham-06',
       name: 'Malai Cham Cham',
       category: 'sweets',
       price: '₹260',
@@ -63,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Cylindrical cottage cheese sweets layered with thick rabri and garnished with mawa sprinkles.'
     },
     {
-      id: 'gulab-jamun-06',
+      id: 'gulab-jamun-07',
       name: 'Shahi Gulab Jamun',
       category: 'sweets',
       price: '₹240',
@@ -72,17 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
       badgeClass: 'badge-fresh',
       image: 'images/gulab_jamun.png',
       description: 'Golden fried mawa dumplings soaked in aromatic rose and cardamom scented sugar syrup.'
-    },
-    {
-      id: 'kheer-kadam-07',
-      name: 'Royal Kheer Kadam',
-      category: 'sweets',
-      price: '₹320',
-      unit: 'per kg',
-      badge: 'Traditional',
-      badgeClass: 'badge-bestseller',
-      image: 'images/hero_sweets.png',
-      description: 'Mini Rasgulla encapsulated inside a soft layer of sweetened mawa and grated khoya.'
     },
     {
       id: 'kalakand-08',
@@ -107,19 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Tiny gram flour pearls fried in 100% pure cow ghee, soaked in saffron syrup with melon seeds.'
     },
     {
-      id: 'milk-cake-10',
-      name: 'Rich Mawa Milk Cake',
-      category: 'sweets',
-      price: '₹400',
-      unit: 'per kg',
-      badge: 'Rich Flavor',
-      badgeClass: 'badge-fresh',
-      image: 'images/wedding_catering.png',
-      description: 'Caramelized two-tone slow-cooked milk cake with rich grainy texture and cardamom aroma.'
-    },
-    {
-      id: 'cake-truffle-11',
-      name: 'Royal Chocolate Truffle Cake',
+      id: 'cake-truffle-10',
+      name: 'Royal Multi-Tier Designer Cake',
       category: 'cakes',
       price: '₹550',
       unit: 'per Pound (1 lb)',
@@ -129,41 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Decadent dark chocolate ganache layers, edible gold leaf accent, topped with fresh dark chocolate curls.'
     },
     {
-      id: 'cake-butterscotch-12',
-      name: 'Butterscotch Crunch Celebration Cake',
-      category: 'cakes',
-      price: '₹480',
-      unit: 'per Pound (1 lb)',
-      badge: '100% Eggless',
-      badgeClass: 'badge-eggless',
-      image: 'images/luxury_cakes.png',
-      description: 'Fluffy sponge cake layered with rich butterscotch cream, caramelized praline crunch, and butterscotch drip.'
-    },
-    {
-      id: 'cake-fruit-13',
-      name: 'Fresh Exotic Fruit Gateau Cake',
-      category: 'cakes',
-      price: '₹580',
-      unit: 'per Pound (1 lb)',
-      badge: 'Fresh Fruits',
-      badgeClass: 'badge-fresh',
-      image: 'images/luxury_cakes.png',
-      description: 'Soft vanilla sponge layered with whipped cream and topped with kiwi, kiwi berries, mango, and strawberries.'
-    },
-    {
-      id: 'cake-custom-14',
-      name: 'Custom Photo & Theme Birthday Cake',
-      category: 'cakes',
-      price: '₹650+',
-      unit: 'customized design',
-      badge: 'Custom Order',
-      badgeClass: 'badge-bestseller',
-      image: 'images/luxury_cakes.png',
-      description: 'Personalized birthday & anniversary cakes crafted to your chosen theme, photo printing, or fondant design.'
-    },
-    {
-      id: 'kulfi-matka-15',
-      name: 'Shahi Matka Kulfi',
+      id: 'kulfi-matka-11',
+      name: 'Artisanal Matka Kulfi & Sundaes',
       category: 'icecream',
       price: '₹80',
       unit: 'per Matka Cup',
@@ -173,18 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
       description: 'Slow-cooked dense milk ice cream infused with real saffron strands, crushed almonds, and cardamom.'
     },
     {
-      id: 'sundae-mango-16',
-      name: 'Alphonso Mango Sundae Blast',
-      category: 'icecream',
-      price: '₹140',
-      unit: 'Glass Bowl',
-      badge: 'Kids Favorite',
-      badgeClass: 'badge-bestseller',
-      image: 'images/ice_cream_parlour.png',
-      description: 'Double scoop mango ice cream layered with mango pulp, candied nuts, cherry on top, and waffle crunch.'
-    },
-    {
-      id: 'hamper-puja-17',
+      id: 'hamper-puja-12',
       name: 'Durga Puja Royal Gift Hamper',
       category: 'hampers',
       price: '₹1,250',
@@ -193,6 +138,17 @@ document.addEventListener('DOMContentLoaded', () => {
       badgeClass: 'badge-bestseller',
       image: 'images/festival_hampers.png',
       description: 'Premium gift hamper containing Kaju Katli, Nolen Gur Sandesh, Dry Fruits, Kheer Kadam, and festive packaging.'
+    },
+    {
+      id: 'wedding-tattwa-13',
+      name: 'Bengali Wedding Sweets & Tattwa Box',
+      category: 'hampers',
+      price: '₹1,850',
+      unit: 'Custom Wedding Tattwa',
+      badge: 'Wedding Special',
+      badgeClass: 'badge-bestseller',
+      image: 'images/wedding_catering.png',
+      description: 'Decorated brass platter box filled with premium Sandesh, Kaju Katli, Mishti Doi matkas, and wedding tattwa decoration.'
     }
   ];
 
